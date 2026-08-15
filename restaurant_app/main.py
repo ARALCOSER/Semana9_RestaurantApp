@@ -9,6 +9,8 @@
 # * DICT  -> `acciones` dentro de main(): relaciona cada opción del menú (clave) con la función que debe ejecutarse (valor).
 # Se importa el módulo 're' para la validación de correos electrónicos mediante expresiones regulares.
 
+import os
+os.system("cls")  # Limpiar la consola
 import re
 from typing import Callable
 
