@@ -40,8 +40,7 @@ python main.py
 
 ## ✅Responsabilidades
 
-- `modelos/producto.py`: contiene la clase `Producto`, entidad base que
-  representa un producto del restaurante (código, nombre, categoría y
+- `modelos/producto.py`: contiene la clase `Producto`, entidad base que representa un producto del restaurante (código, nombre, categoría y
   precio).
 - `modelos/bebida.py`: contiene la clase `Bebida`, que hereda de
   `Producto` y agrega el atributo `tamano`. Aplica herencia y
